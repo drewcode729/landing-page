@@ -1,200 +1,26 @@
- body {
-     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     margin: 0;
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-    }
+.card{
+   width: 400px;
+   height: 200px;
+   background: #ddebf8;
+   margin: 0 auto;
+   padding: 20px;
+   display: flex;
+   border-bottom: 6px solid red;
+   text-align: center;
+   color: #2b2839;;
+}
 
-    a {
-        text-decoration: none;
-        font-size: 18px;
-        color: #E5E7EB
-    }
+.photo{
+   height: 200px;
+}
 
-    .header {
-        height: 75px;
-        background-color: #1F2937;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
+.content{
+  padding: 20px 20px;
+  font-size: 20px;
+}
 
-    .top-container {
-        display: flex;
-        width: 1000px;
-        justify-content: space-between;
-    }
-
-    .logo {
-        font-size: 24px;
-        color: #F9FAF8;
-    }
-
-    .right-links {
-        display: flex;
-        gap: 15px;
-    }
-
-    .top {
-        height: 350px;
-        background-color: #1F2937;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .button {
-        padding: 12px 28px;
-        border: none;
-        background-color: #3882F6;
-        color: white;
-        font-weight: bold;
-        border-radius: 8px;
-        cursor: pointer;
-    }
-
-    .placeholder {
-        background-color: #6C747D;
-        display: flex;
-        height: 200px;
-        width: 500px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .top-left {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 6px;
-        max-width: 400px;
-
-    }
-
-    .title {
-        font-size: 48px;
-        color: #F9FAF8;
-        font-weight: 900;
-    }
-
-    .subtext {
-        font-size: 18px;
-        color: #E5E7EB;
-    }
-
-    .top-right {
-        display: flex;
-        align-items: center;
-    }
-
-    .cards {
-        height: 350px;
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 50px
-    }
-
-    .cards-container {
-        width: 850px;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-    }
-
-    .info-title {
-        font-size: 36px;
-        color: #1F2937;
-        font-weight: 900;
-        display: flex;
-        justify-content: center;
-        padding: 50px
-    }
-
-    .card {
-        height: 150px;
-        width: 150px;
-        border: solid #3882F6 2px;
-        border-radius: 15px;
-    }
-
-    .container {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .info-text {
-        max-width: 150px;
-        display: flex;
-        text-align: center;
-    }
-
-    .quotes {
-        height: 300px;
-        background-color: #E5E7EB;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-    .quote-text {
-        font-size: 36px;
-        font-weight: lighter;
-        font-style: italic;
-        color: #1F2937;
-        width: 750px;
-    }
-     
-    .author {
-        display: flex;
-        justify-content: end;
-    }
-
-    .quote-container {
-        width: 700px;
-        display: flex;
-        flex-direction: column;
-    
-    }
-   
-    .bottom {
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .cta {
-        height: 100px;
-        width: 1000px;
-        background-color: #3882F6;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .cta-top {
-        color: #F9FAF8;
-    }
-
-    .cta-bottom {
-        color: #E5E7EB;
-    }
-
-    .cta-button {
-        border: white solid 2px;
-        border-radius: 4px;
-        padding: 4px 16px;
-        color: white;
-        background-color: #3882F6;
-        cursor: pointer;
-    }
-
-    .footer {
-        height: 75px;
-        background-color: #1F2937;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-    }
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
